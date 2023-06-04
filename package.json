@@ -1,6 +1,6 @@
 {
   "name": "@maxmilton/rollup-plugin-purgecss",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "type": "module",
   "repository": "maxmilton/rollup-plugin-purgecss",
   "author": "Max Milton <max@happyhackers.xyz>",

@@ -13,7 +13,7 @@
   "scripts": {
     "build": "pnpm run prebuild && tsc",
     "lint": "pnpm run lint:js && pnpm run lint:ts",
-    "lint:js": "eslint --ignore-path .gitignore --ext .cjs,.js,.mjs,.ts .",
+    "lint:js": "eslint --ignore-path .gitignore --ext .ts,.mjs,.js,.cjs .",
     "lint:ts": "tsc --noEmit",
     "prebuild": "rm -rf dist",
     "test": "c8 --all --include=src --reporter=text --reporter=lcovonly uvu -r tsm test '\\.test\\.ts$'"
